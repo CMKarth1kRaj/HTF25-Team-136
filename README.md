@@ -1,68 +1,37 @@
-﻿# HTF25-Team-136
+# CalMate: Your AI-Powered Calorie Tracker
 
-## GitHub submission guide
+I Love Hactoberfest!!! Let's gooooooo 🔥 
+<img width="500" height="897" alt="image" src="https://github.com/user-attachments/assets/0b441b22-88d3-44ca-87dc-806df450a651" />
+<img width="504" height="894" alt="image" src="https://github.com/user-attachments/assets/7ce7c855-3169-459c-8847-2b8b1cc97001" />
 
-In this Readme, you will find a guide on how to fork this Repository, add files to it, and make a pull request to contribute your changes.
+CalMate is a smart and simple way to track your daily calorie intake. Using the power of Google's Gemini AI, you can simply take a picture of your food, and CalMate will handle the rest.
 
-<details open>
-<summary><h3>1. Login to your GitHub Account</h3></summary>
-<br>
-<p>Go to <a href="https://github.com">github.com</a> to log in.</p>
-<ul>
-   <li>Open the <a href="https://github.com/cbitosc/HTF25-Team-136">current repo</a> in a new tab.</li>
-   <li>Perform all operations in the newly opened tab, and follow the current tab for instructions.</li>
-</ul>
-</details>
+## Features
 
-<details open>
-<summary><h3>2. Fork the Repository</h3></summary>
-<br>
-<p align="center">
-  <img src="fork.jpeg" alt="Fork the Repository" height="300">
-</p>
-<ul>
- <li>In the newly opened tab, on the top-right corner, click on <b>Fork</b>.</li>
- <li>Enter the <b>Repository Name</b> as <b>HTF25-Team-136</b>.</li>
- <li>Then click <b>Create Fork</b>, leaving all other fields as default.</li>
- <li>After a few moments, you can view your forked repo.</li>
-</ul>
-</details>
+*   **AI-Powered Food Recognition:** Snap a photo of your meal, and our AI will identify the food and automatically log the calories for you.
+*   **Detailed Meal Logging:** Keep a comprehensive log of all your meals and snacks throughout the day.
+*   **In-depth Analysis:** Get insights into your eating habits with our detailed calorie and nutrient analysis.
+*   **Meal Planner:** Plan your meals in advance to stay on track with your health goals.
+*   **Personalized Dashboard:** View your daily progress at a glance on your personalized dashboard.
+*   **User Profiles:** Create a profile to track your long-term progress and set personal goals.
 
-<details open>
-<summary><h3>3. Clone your Repository</h3></summary>
-<br>
-<ul>
- <li>Click on <b>Code</b> and copy the <b>web URL</b> of your forked repository.</li>
- <li>Open terminal on your local machine.</li>
- <li>Run this command to clone the repo:</li>
-<pre><code>git clone https://github.com/your-username/HTF25-Team-136.git</code></pre>
-</ul>
-</details>
+## How It Works
 
-<details open>
-<summary><h3>4. Adding files to the Repository</h3></summary>
-<br>
-<ul>
- <li>While doing it for the first time, create a new branch for your changes:</li>
-<pre><code>git checkout -b branch-name</code></pre>
- <li>Add files or modify existing ones.</li>
- <li>Stage your changes:</li>
-<pre><code>git add .</code></pre>
- <li>Commit your changes:</li>
-<pre><code>git commit -m "Descriptive commit message"</code></pre>
- <li>Push your branch to your fork:</li>
-<pre><code>git push origin branch-name</code></pre>
-</ul>
-</details>
+CalMate uses Google's powerful Gemini AI to analyze the images of your food. When you take a picture, the image is sent to our AI model, which identifies the food items and estimates their calorie and nutritional information. This information is then automatically added to your daily meal log.
 
-<details open>
-<summary><h3>5. Create a Pull Request</h3></summary>
-<br>
-<ul>
- <li>Click on the <b>Contribute</b> button in your fork and choose <b>Open Pull Request</b>.</li>
- <li>Leave all fields as default, then click <b>Create Pull Request</b>.</li>
- <li>Wait a few moments; your PR is now submitted.</li>
-</ul>
-</details>
+## Run Locally
 
-## Thanks for participating!
+**Prerequisites:**  Node.js
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
+
+## Technology Stack
+
+*   **Frontend:** React, TypeScript, Vite
+*   **AI:** Google Gemini
+
+View your app in AI Studio: https://ai.studio/apps/drive/1-DpGHSfzhsfx9IGg9XyG0xpxgiCr47r7
