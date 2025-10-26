@@ -1,8 +1,8 @@
 # CalMate: Your AI-Powered Calorie Tracker
 
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+I Love Hactoberfest!!! Let's gooooooo 🔥 
+<img width="500" height="897" alt="image" src="https://github.com/user-attachments/assets/0b441b22-88d3-44ca-87dc-806df450a651" />
+<img width="504" height="894" alt="image" src="https://github.com/user-attachments/assets/7ce7c855-3169-459c-8847-2b8b1cc97001" />
 
 CalMate is a smart and simple way to track your daily calorie intake. Using the power of Google's Gemini AI, you can simply take a picture of your food, and CalMate will handle the rest.
 
